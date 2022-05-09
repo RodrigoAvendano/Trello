@@ -1,5 +1,12 @@
 {
   "dependencies": {
     "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0"
+  },
+  "scripts": {
+    "linter": "node ./node_modules/eslint/bin/eslint.js .",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
   }
 }
